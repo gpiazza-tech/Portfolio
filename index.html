@@ -1,24 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Gabriel Piazza</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Page-specific description">
+    <meta name="keywords" content="Page-specific keywords">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="static/images/favicons/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="static/images/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" href="static/images/favicons/apple-touch-icon-precomposed.png">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800%7COpen+Sans+Condensed:300&amp;subset=latin,cyrillic"
+        rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="static/js/head.min.js"></script>
 </head>
-<body>
-    <nav>
-        <label class="logo">Gabriel J. Piazza</label>
-            <ul>
-                <li><a class="active" href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Experience</a></li>
-                <li><a href="#">Education</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-    </nav>
-    <p>
-        I am a tech enthusiast who is passionate about PC hardware, operating systems, software development, and networking.
-    </p>
+
+<body><!-- Header-->
+    <header class="main-header">
+        <div class="first-nav">
+            <div class="container">
+                <nav class="first-nav__links">
+                    <ul>
+                        <li><a class="js-link js-anchor is-selected" href="#home">Home</a></li>
+                        <li><a class="js-link js-anchor" href="#about">About</a></li>
+                        <li><a class="js-link js-anchor" href="#services">Skills</a></li>
+                        <li><a class="js-link js-anchor" href="#projects">Projects</a></li>
+                        <li><a class="js-link js-anchor" href="#contacts">Contact</a></li>
+                    </ul>
+                </nav><a class="first-nav__navcontrol icon icon_menu js-navcontrol" href="#">Menu</a>
+            </div>
+        </div>
+    </header><!-- Home section-->
+    <section class="home-section" id="home">
+        <div class="home-section__bg"></div>
+        <div class="home-section__overlay">
+            <div class="container">
+                <header class="home-section__header">
+                    <p class="home-section__header-label">I am</p>
+                    <h1>Gabriel Piazza</h1>
+                    <h2>Passionate Hardware and Software Technician</h2>
+                </header>
+            </div>
+        </div>
+    </section><!-- About section-->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-section__card">
+                <header class="about-section__card-header">
+                    <h2>About Me</h2>
+                </header>
+                <div class="about-section__card-info">
+                    <p>I am a passionate technicaion who loves troubleshooting computers and learning about new technologies. I 
+                        earned my CompTIA A+ certification in January 2026, and I am always looking for projects I can use as an
+                        excuse to drill my technical skills.
+                    </p>
+                    <blockquote>
+                        <p>Interested in reaching out? You can contact me at contact@gpiazza.me, as well as call or text me at (336) 403-7079</p>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section><!-- Skills section-->
+    <section class="common-section" id="services">
+        <div class="container">
+            <header class="common-section__header">
+                <h2>Skills</h2>
+            </header>
+            <div class="grid-container">
+                <ul class="services">
+                    <li class="services__item">
+                        <h4>Operating Systems</h4>
+                        <p>If there's one thing I thought I knew a lot about before taking the A+, it would be operating
+                            systems. It turns out there is so much more to troubleshooting Windows 11 then simply checking
+                            task manager. Since passing the A+, I have learned so much about using other troubleshooting
+                            tools such as control panel, microsoft maneagement console, and the command line. I am now not
+                            only more than capable of troubleshooting Windows, but also MacOS and Linux. 
+                        </p>
+                    </li>
+                    <li class="services__item">
+                        <h4>Customer Service</h4>
+                        <p>I have been working in fast food since April of 2025, and I have learned so much about how to
+                            treat customers, how to work in a professional team environment, and how to deal with stressful
+                            situations. I am proud to say that I am a valuable addition to the company, and I was awarded
+                            an employee of the month certificate in September for my dedication and enthusiasm.
+                        </p>
+                    </li>
+                </ul>
+                <ul class="services services_pm">
+                    <li class="services__item">
+                        <h4>Hardware and Networking</h4>
+                        <p>Out of all the huge projects I have and currently am working on, my proudest creation is my home network.
+                            The A+ is a great resource for learning the basics of servers and networking, but the amount I have learned
+                            from the A+ is nothing compared to what I've learned from building a home network. There really isn't a
+                            better way to learn about the different parts of a PC then buying the components from ebay and building
+                            one yourself.
+                        </p>
+                    </li>
+                    <li class="services__item">
+                        <h4>Programming</h4>
+                        <p>I have been learning the basics of programming, particularly C#, since I was about 10 years old.
+                            I've branched away from this language in the last few years, and I have some amount of experience
+                            in C++, Python, Java, and many others. Throughout my programming journey, I have made countless
+                            applications, a few of which are available on my github.
+                        </p>
+                    </li>
+                </ul>
+                <div class="advantages">
+                    <h2>My Passion for Tech</h2>
+                    <blockquote>
+                        <p>My most valuable trait is undoubtetly my enthusiasm and dedication to technology. I am always looking
+                            for projects that will stretch my thinking and problem-solving skills, and I am eager to learn more
+                            and more things about computers every day.
+                        </cite>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section><!-- Journey section-->
+    <section class="common-section" id="process">
+        <div class="container">
+            <header class="common-section__header">
+                <h2>My Journey</h2>
+            </header>
+            <div class="grid-container">
+                <ul class="process">
+                    <li class="process__step process__step_research">
+                        <div class="process__step-icon is-active"></div>
+                    </li>
+                    <li class="process__step-info process__step-info_research is-active">
+                        <h3><span>January 2018</span> &mdash; Started to learn programming</h3>
+                        <p>This is when I started watching a 10 hour long youtube video on C#, and I enjoyed learning the
+                            language so much that I then started making simple games in Unity.
+                        </p>
+                    </li>
+                    <li class="process__step process__step_develop">
+                        <div class="process__step-icon icon icon_develop"></div>
+                    </li>
+                    <li class="process__step-info process__step-info_develop">
+                        <h3><span>December 2024</span> &mdash; Introduced to networking</h3>
+                        <p>My first time seeing an IP address was when I started doing research on how to make online
+                            video games. I followed a video series on making a UDP-based server and a web-based game client in
+                            javascript. While that project was ultimately abandoned, it was my first time introduced to networking.
+                        </p>
+                    </li>
+                    <li class="process__step process__step_deploy">
+                        <div class="process__step-icon icon icon_deploy"></div>
+                    </li>
+                    <li class="process__step-info process__step-info_deploy">
+                        <h3><span>May 2025</span> &mdash; Building a PC</h3>
+                        <p>Still unsure of what I would do with everything I knew about tech, I was sure about one thing; that I liked
+                            playing video games. This was my motivation to learn how to build my own gaming PC, and I learned so much
+                            about the anatomy of computers. The PC I ended up with is still my primary computer to this day, and
+                            ironically it is rarely used for gaming anymore.
+                        </p>
+                    </li>
+                    <li class="process__step process__step_deliver">
+                        <div class="process__step-icon icon icon_deliver"></div>
+                    </li>
+                    <li class="process__step-info process__step-info_deliver">
+                        <h3><span>July 2026</span> &mdash; CompTIA A+</h3>
+                        <p>At this point I'm set on pursuing IT as a career, and I decide to start studying for the CompTIA A+ exam.
+                            It was a long and wild ride, but I finally achived the certification in January of 2026, and I learned
+                            about so many areas of IT that I didn't even know existed before.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section><!-- Projects section-->
+    <section class="common-section" id="projects">
+        <header class="common-section__header">
+            <h2>Projects</h2>
+            <p>Here are a few of my big projects that I am constantly working on</p>
+        </header>
+        <div class="projects-wrap">
+            <div class="grid-container">
+                <div class="projects">
+                    <figure class="projects__item"><img src="static/images/projects/1.jpg"
+                            alt="Missing Image">
+                        <figcaption><a class="icon icon_link" href="#" rel="nofollow">Home Network</a></figcaption>
+                    </figure>
+                    <figure class="projects__item"><img src="static/images/projects/2.jpg"
+                            alt="Missing Image">
+                        <figcaption><a class="icon icon_link" href="#" rel="nofollow">Holloware Engine</a></figcaption>
+                    </figure>
+                    <figure class="projects__item"><img src="static/images/projects/5.jpg"
+                            alt="Missing Image">
+                        <figcaption><a class="icon icon_link" href="#" rel="nofollow">Banana Websites</a></figcaption>
+                    </figure>
+                    <figure class="projects__item"><img src="static/images/projects/6.jpg"
+                            alt="Missing Image">
+                        <figcaption><a class="icon icon_link" href="#" rel="nofollow">Some Other Project</a></figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    <div class="contacts-section" id="contacts">
+        <div class="container">
+            <section class="contact-card">
+                <header class="contact-card__header">
+                    <h2>Contact Information</h2>
+                </header>
+                <div class="contact-info">
+                    <div class="contact-info__logo">GP</div>
+                    <div class="contact-info__group">
+                        <div class="contact-info__additional">
+                            <p>Questions?</p>
+                            <p>Interested in collabing?</p>
+                            <p>Don't hesitate to reach out!</p>
+                        </div>
+                        <div class="contact-info__vcard vcard">
+                            <h4 class="fn org">Contact Info</h4>
+                            <p class="icon icon_location"><a class="adr js-anchor" href="#gmap"><span
+                                        class="country-name">USA</span>,&nbsp;<span
+                                        class="locality">East Bend</span>,&nbsp;<span class="address">North Carolina</span></a>
+                            </p>
+                            <p class="icon icon_mail"><a class="email"
+                                    href="mailto:contact@gpiazza.me">contact@gpiazza.me</a></p>
+                            <p class="icon icon_phone"><a class="email" href="tel:3364037079">(336) 403-7079</a></p>
+                        </div>
+                        <ul class="contact-info__social">
+                            <li><a class="icon icon_fb" rel="nofollow">I'm on Facebook</a></li>
+                            <li><a class="icon icon_twi" rel="nofollow">My Twitter</a></li>
+                            <li><a class="icon icon_gplus" rel="nofollow">I'm on Google+</a></li>
+                            <li><a class="icon icon_vk" rel="nofollow">I'm in Vk</a></li>
+                            <li><a class="icon icon_in" rel="nofollow">My Linkedin profile</a></li>
+                            <li><a class="icon icon_rss" rel="nofollow">RSS feed... maybe</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="gmap" id="gmap"></div>
+    </div><!-- Footer-->
+    <footer class="main-footer">
+        <div class="container">
+            <p class="main-footer__copyright">&copy;&nbsp;<span>Gabriel Piazza</span></p><a
+                class="main-footer__gotop icon icon_gotop js-anchor" href="#home">To top!</a>
+        </div>
+    </footer>
+    <script src="static/js/body.min.js"></script>
 </body>
+
 </html>
