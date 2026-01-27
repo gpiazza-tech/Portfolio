@@ -1,7 +1,7 @@
-@font-face {
-    font-family: 'ip';
-    src: url(../fonts/ip/font/ip.eot);
-    src: url(../fonts/ip/font/ip.eot#iefix) format("embedded-opentype"), url(../fonts/ip/font/ip.woff) format("woff"), url(../fonts/ip/font/ip.ttf) format("truetype"), url(../fonts/ip/font/ip.svg) format("svg");
+@font - face {
+    font - family: 'ip';
+    src: url(.. / fonts / ip / font / ip.eot);
+    src: url(.. / fonts / ip / font / ip.eot#iefix) format("embedded-opentype"), url(../fonts/ip/font/ip.woff) format("woff"), url(../fonts/ip/font/ip.ttf) format("truetype"), url(../fonts/ip/font/ip.svg) format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -279,6 +279,122 @@ a:hover {
     font-family: "ip";
     font-style: normal;
     font-weight: 400
+}
+
+.icon_menu:before {
+    content: "\e801"
+}
+
+.icon_menu.is-closed:before {
+    content: "\e809"
+}
+
+.icon_spoiler.is-opened:before {
+    content: "\e803"
+}
+
+.icon_spoiler.is-closed:before {
+    content: "\e802"
+}
+
+.icon_research:before {
+    content: "\e80b"
+}
+
+.icon_strategy:before {
+    content: "\e807"
+}
+
+.icon_improve:before {
+    content: "\e80f"
+}
+
+.icon_plan:before {
+    content: "\e80c"
+}
+
+.icon_recover:before {
+    content: "\e80a"
+}
+
+.icon_support:before {
+    content: "\e80e"
+}
+
+.icon_develop:before {
+    content: "\e808"
+}
+
+.icon_deploy:before {
+    content: "\e80d"
+}
+
+.icon_deliver:before {
+    content: "\e810"
+}
+
+.icon_gotop:before {
+    content: "\e817"
+}
+
+.icon_gonext:before {
+    content: "\e818"
+}
+
+.icon_fb:before {
+    content: "\e811"
+}
+
+.icon_twi:before {
+    content: "\e812"
+}
+
+.icon_gplus:before {
+    content: "\e813"
+}
+
+.icon_vk:before {
+    content: "\e814"
+}
+
+.icon_in:before {
+    content: "\e815"
+}
+
+.icon_rss:before {
+    content: "\e816"
+}
+
+.icon_mail:before {
+    content: "\e800"
+}
+
+.icon_location:before {
+    content: "\e806"
+}
+
+.icon_ql:before {
+    content: "\e804"
+}
+
+.icon_qr:before {
+    content: "\e805"
+}
+
+.icon_link:before {
+    content: "\e819"
+}
+
+.icon_phone:before {
+    content: "\e81a"
+}
+
+.progressjs-inner {
+    width: 0
+}
+
+.progressjs-progress {
+    z-index: 9999999
 }
 
 .progressjs-theme-custom {
@@ -986,10 +1102,6 @@ a:hover {
     color: #aaa
 }
 
-.process__step-img {
-    padding-top: 25px;
-}
-
 .projects-wrap {
     position: relative;
     width: 100%;
@@ -1300,6 +1412,7 @@ a:hover {
     width: 25px;
     height: 25px;
     border: 0;
+    vertical-align: top
 }
 
 .contact-info__vcard a {
