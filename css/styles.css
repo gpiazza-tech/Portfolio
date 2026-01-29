@@ -591,11 +591,13 @@ a:hover {
     width: 100%;
     height: 100%;
     min-height: 100%;
-    background-color: transparent;
-    background-color: rgba(17, 17, 17, .3);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000, endColorstr=#4C000000);
     zoom: 1;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC);
+    background-color: rgb(60, 60, 60);
+    background-blend-mode: multiply;
+    background-image: url("../images/monitor.jpeg");
+    background-size: 140%;
+    background-position-y: -100px;
     background-repeat: repeat;
     background-attachment: fixed
 }
@@ -1312,13 +1314,15 @@ a:hover {
 }
 
 .contact-info__social {
+    margin-top: 50px;
+    padding-right: 50px;
     position: absolute;
     width: 40px;
     height: 100%;
     top: 0;
     right: 0;
     list-style-type: none;
-    background-color: #aaa
+    background-color: #ffffff00
 }
 
 .contact-info__social li {
@@ -1327,8 +1331,9 @@ a:hover {
     height: 50px;
     text-align: center;
     overflow: hidden;
-    background-color: #aaa;
-    border-top: 1px solid #fff
+    background-color: #aaaaaa00;
+    border-top: 1px solid #fff;
+    margin-top: 10px;
 }
 
 .contact-info__social li:hover {
@@ -1355,6 +1360,22 @@ a:hover {
 
 .contact-info__social li a:hover:before {
     color: #111
+}
+
+.icon {
+
+}
+
+.icon_github {
+    content: url(../images/icons/github.ico);
+}
+
+.icon_indeed {
+    content: url(../images/icons/indeed.ico);
+}
+
+.icon_linkedin {
+    content: url(../images/icons/linkedin.ico);
 }
 
 #gmap {
